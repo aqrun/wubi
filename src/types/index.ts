@@ -7,7 +7,7 @@ export interface PartBlock {
   /** 中文键名 四次键入 */
   cnName: string;
   /** 起笔标记 一、二、三 */
-  signId: string;
+  signId?: string;
   signColor?: string;
   signBorder?: boolean;
   blockColor?: string;
