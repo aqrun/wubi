@@ -12,15 +12,15 @@ export const useKeysOne = () => {
       name: 'g',
       cnName: '王',
       signId: '01',
-      signColor: '',
+      signColor: '#EE3322',
       signBorder: true,
-      blockColor: '',
+      blockColor: '#FB927D',
       parts: [
-        { id: '11', x: 0, y: 0, },
-        { id: '02', x: 0, y: 0, },
-        { id: '12', x: 0, y: 0, },
-        { id: '14', x: 0, y: 0, },
-        { id: '13', x: 0, y: 0, },
+        { id: '11', x: 8, y: 51, },
+        { id: '02', x: 8, y: 88, },
+        { id: '12', x: 8, y: 83, },
+        { id: '14', x: 62, y: 83, },
+        { id: '13', x: 88, y: 83, },
       ],
     };
 
@@ -29,7 +29,7 @@ export const useKeysOne = () => {
       name: 'f',
       cnName: '土',
       signId: '01',
-      signColor: '',
+      signColor: '#EE3322',
       signBorder: true,
       blockColor: '',
       parts: [
@@ -47,7 +47,7 @@ export const useKeysOne = () => {
       name: 'd',
       cnName: '大',
       signId: '01',
-      signColor: '',
+      signColor: '#EE3322',
       signBorder: true,
       blockColor: '',
       parts: [
@@ -65,7 +65,7 @@ export const useKeysOne = () => {
       name: 's',
       cnName: '木',
       signId: '11',
-      signColor: '',
+      signColor: '#EE3322',
       blockColor: '',
       parts: [
         { id: '12', x: 0, y: 0, },
