@@ -3,6 +3,10 @@ import {
   PartBlock,
   PartItem,
 } from '../types';
+import {
+  SIGN_COLOR_TWO,
+  BLOCK_COLOR_TWO
+} from '../constants';
 
 export const useKeysTwo = () => {
 
@@ -12,9 +16,9 @@ export const useKeysTwo = () => {
       name: 'h',
       cnName: '目',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_TWO,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_TWO,
       parts: [
         { id: '11', x: 0, y: 0, },
         { id: '03', x: 0, y: 0, },
@@ -32,9 +36,9 @@ export const useKeysTwo = () => {
       name: 'j',
       cnName: '日',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_TWO,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_TWO,
       parts: [
         { id: '03', x: 0, y: 0, isSub: true, },
         { id: '04', x: 0, y: 0, isSub: true, },
@@ -50,9 +54,9 @@ export const useKeysTwo = () => {
       name: 'k',
       cnName: '口',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_TWO,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_TWO,
       parts: [
         { id: '02', x: 0, y: 0, },
         { id: '03', x: 0, y: 0, },
@@ -64,8 +68,8 @@ export const useKeysTwo = () => {
       name: 'l',
       cnName: '田',
       signId: '01',
-      signColor: '',
-      blockColor: '',
+      signColor: SIGN_COLOR_TWO,
+      blockColor: BLOCK_COLOR_TWO,
       parts: [
         { id: '12', x: 0, y: 0, },
         { id: '11', x: 0, y: 0, },
@@ -84,8 +88,8 @@ export const useKeysTwo = () => {
       name: 'm',
       cnName: '山',
       signId: '11',
-      signColor: '',
-      blockColor: '',
+      signColor: SIGN_COLOR_TWO,
+      blockColor: BLOCK_COLOR_TWO,
       parts: [
         { id: '12', x: 0, y: 0, },
         { id: '17', x: 0, y: 0, isSub: true, },

@@ -3,6 +3,10 @@ import {
   PartBlock,
   PartItem,
 } from '../types';
+import {
+  SIGN_COLOR_ONE,
+  BLOCK_COLOR_ONE,
+} from '../constants';
 
 export const useKeysOne = () => {
 
@@ -12,9 +16,9 @@ export const useKeysOne = () => {
       name: 'g',
       cnName: '王',
       signId: '01',
-      signColor: '#EE3322',
+      signColor: SIGN_COLOR_ONE,
       signBorder: true,
-      blockColor: '#FB927D',
+      blockColor: BLOCK_COLOR_ONE,
       parts: [
         { id: '11', x: 8, y: 51, },
         { id: '02', x: 8, y: 88, },
@@ -29,9 +33,9 @@ export const useKeysOne = () => {
       name: 'f',
       cnName: '土',
       signId: '01',
-      signColor: '#EE3322',
+      signColor: SIGN_COLOR_ONE,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_ONE,
       parts: [
         { id: '11', x: 0, y: 0, },
         { id: '12', x: 0, y: 0, },
@@ -47,9 +51,9 @@ export const useKeysOne = () => {
       name: 'd',
       cnName: '大',
       signId: '01',
-      signColor: '#EE3322',
+      signColor: SIGN_COLOR_ONE,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_ONE,
       parts: [
         { id: '11', x: 0, y: 0, },
         { id: '12', x: 0, y: 0, },
@@ -65,8 +69,8 @@ export const useKeysOne = () => {
       name: 's',
       cnName: '木',
       signId: '11',
-      signColor: '#EE3322',
-      blockColor: '',
+      signColor: SIGN_COLOR_ONE,
+      blockColor: BLOCK_COLOR_ONE,
       parts: [
         { id: '12', x: 0, y: 0, },
         { id: '13', x: 0, y: 0, isSub: true, },
@@ -78,8 +82,8 @@ export const useKeysOne = () => {
       name: 'a',
       cnName: '工',
       signId: '17',
-      signColor: '',
-      blockColor: '',
+      signColor: SIGN_COLOR_ONE,
+      blockColor: BLOCK_COLOR_ONE,
       parts: [
         { id: '23', x: 0, y: 0, },
         { id: '11', x: 0, y: 0, },

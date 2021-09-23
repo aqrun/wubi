@@ -3,6 +3,10 @@ import {
   PartBlock,
   PartItem,
 } from '../types';
+import {
+    SIGN_COLOR_FOUR,
+    BLOCK_COLOR_FOUR,
+} from '../constants';
 
 export const useKeysThree = () => {
 
@@ -12,9 +16,9 @@ export const useKeysThree = () => {
       name: 'y',
       cnName: '言',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_FOUR,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_FOUR,
       parts: [
         { id: '11', x: 0, y: 0, isSub: true, },
         { id: '03', x: 0, y: 0, isSub: true, },
@@ -30,9 +34,9 @@ export const useKeysThree = () => {
       name: 'u',
       cnName: '立',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_FOUR,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_FOUR,
       parts: [
         { id: '02', x: 0, y: 0, isSub: true, },
         { id: '12', x: 0, y: 0, },
@@ -50,9 +54,9 @@ export const useKeysThree = () => {
       name: 'i',
       cnName: '水',
       signId: '01',
-      signColor: '',
+      signColor: SIGN_COLOR_FOUR,
       signBorder: true,
-      blockColor: '',
+      blockColor: BLOCK_COLOR_FOUR,
       parts: [
         { id: '25', x: 0, y: 0, },
         { id: '11', x: 0, y: 0, isSub: true, },
@@ -72,8 +76,8 @@ export const useKeysThree = () => {
       name: 'o',
       cnName: '火',
       signId: '01',
-      signColor: '',
-      blockColor: '',
+      signColor: SIGN_COLOR_FOUR,
+      blockColor: BLOCK_COLOR_FOUR,
       parts: [
         { id: '12', x: 0, y: 0, },
         { id: '11', x: 0, y: 0, isSub: true, },
@@ -89,7 +93,7 @@ export const useKeysThree = () => {
       id: 45,
       name: 'p',
       cnName: '之',
-      blockColor: '',
+      blockColor: BLOCK_COLOR_FOUR,
       parts: [
         { id: '13', x: 0, y: 0, },
         { id: '11', x: 0, y: 0, },

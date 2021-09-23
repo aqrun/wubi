@@ -3,6 +3,10 @@ import {
   PartBlock,
   PartItem,
 } from '../types';
+import {
+  SIGN_COLOR_FIVE,
+  BLOCK_COLOR_FIVE,
+} from '../constants';
 
 export const useKeysFive = () => {
 
@@ -12,9 +16,9 @@ export const useKeysFive = () => {
       name: 'n',
       cnName: '已',
       signId: '01',
-      signColor: '',
+      signColor: 'SIGN_COLOR_FIVE',
       signBorder: true,
-      blockColor: '',
+      blockColor: 'BLOCK_COLOR_FIVE',
       parts: [
         { id: '12', x: 0, y: 0, isSub: true, },
         { id: '03', x: 0, y: 0, isSub: true, },
@@ -35,9 +39,9 @@ export const useKeysFive = () => {
       name: 'b',
       cnName: '子',
       signId: '01',
-      signColor: '',
+      signColor: 'SIGN_COLOR_FIVE',
       signBorder: true,
-      blockColor: '',
+      blockColor: 'BLOCK_COLOR_FIVE',
       parts: [
         { id: '11', x: 0, y: 0, isSub: true, },
         { id: '16', x: 0, y: 0, isSub: true, },
@@ -57,9 +61,9 @@ export const useKeysFive = () => {
       name: 'v',
       cnName: '女',
       signId: '01',
-      signColor: '',
+      signColor: 'SIGN_COLOR_FIVE',
       signBorder: true,
-      blockColor: '',
+      blockColor: 'BLOCK_COLOR_FIVE',
       parts: [
         { id: '11', x: 0, y: 0, },
         { id: '12', x: 0, y: 0, },
@@ -73,7 +77,7 @@ export const useKeysFive = () => {
       id: 54,
       name: 'c',
       cnName: '54',
-      blockColor: '',
+      blockColor: 'BLOCK_COLOR_FIVE',
       parts: [
         { id: '19', x: 0, y: 0, },
         { id: '13', x: 0, y: 0, },
@@ -88,7 +92,7 @@ export const useKeysFive = () => {
       id: 55,
       name: 'x',
       cnName: '幺',
-      blockColor: '',
+      blockColor: 'BLOCK_COLOR_FIVE',
       parts: [
         { id: '11', x: 0, y: 0, isSub: true, },
         { id: '12', x: 0, y: 0, isSub: true, },
