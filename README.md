@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 新世纪五笔字根图-v1.1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+大一统2012字根图。
 
-## Available Scripts
+![字根图预览](word_root_sources/xinshiji.jpg)
 
-In the project directory, you can run:
+网页版查看之前应先安装字体“word_root_sources/wmwb06-font/wmwb06.ttf”，再打开网页“word_root_sources/wmwb06-font/wmwb06.html”观看。
 
-### `yarn start`
+## TODOs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1.图片处理
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+word_root_sources/images-saved/ 目录下所有图片
 
-### `yarn test`
+  * 去背景转png格式
+  * 按键盘分区合并多个字根图为一张图片
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2.字根显示位置补全
 
-### `yarn build`
+基于 word_root_sources/xinshiji.jpg 图片
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * 补全 src/hooks/useKeysOne.ts 等文件中字根坐标位置（x, y）
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3.字根位置对应关系
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+根据第一步中处理好的图片
 
-### `yarn eject`
+  * 将具体字根位置显示坐标，补全到 useKeysOne.ts 配置文件中
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 4.完成字根组件
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+根据 useKeysOne 等配置文件数据显示字根到对应组件（components/SectionOne）
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 版权说明
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+word_root_sources 包为熊怀东制作，可用于教育目的，不可用于商业目的，若有需要，可与他本人联系。
 
-## Learn More
+代码部分遵循[MIT](https://tldrlegal.com/license/mit-license)。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
